@@ -21,7 +21,7 @@ eda_controller_host: "https://ansible-automation-eda-aap-dev.apps.sno-ana.mop-de
 eda_controller_username: "admin"
 eda_controller_password: "5WiC7KnI1dqFQLB1THPDyjlA0V76C2yB"
 
-controller_api: "https://ansible-automation-aap-dev.apps.sno-ana.mop-dev.techzone.ibm.com/api/v2/"
+controller_api: "https://ansible-automation-aap-dev.apps.sno-ana.mop-dev.techzone.ibm.com/api/controller/v2/"
 decision_environment_image_url: "quay.io/juniper-128t/juniper-k8s-de"
 
 # Apstra Variables
