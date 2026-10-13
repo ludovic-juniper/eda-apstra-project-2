@@ -17,7 +17,8 @@ automation_controller_password: "d9rcoAtWX5QyXRzGswBZsGjkZRYS0rRH"
 execution_environment_image_url: "quay.io/bertacchini/apstra/apstra-ee:lastest"
 
 # Ansible Automation Decisions(Ansible EDA) Configuration
-eda_controller_host: "https://ansible-automation-eda-aap-dev.apps.sno-ana.mop-dev.techzone.ibm.com/"
+#eda_controller_host: "https://ansible-automation-eda-aap-dev.apps.sno-ana.mop-dev.techzone.ibm.com/"
+eda_controller_host: "https://ansible-automation-aap-dev.apps.sno-ana.mop-dev.techzone.ibm.com/"
 eda_controller_username: "admin"
 eda_controller_password: "5WiC7KnI1dqFQLB1THPDyjlA0V76C2yB"
 
