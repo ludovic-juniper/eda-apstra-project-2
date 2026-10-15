@@ -22,12 +22,12 @@
         run_job_template:
           name: create-vrf
           organization: Default
-          job_args:
-            extra_vars:
-              ns: "{{ event.resource.metadata.name }}"
-              annotate: "{{ event.resource.metadata.annotations }}"
-              ev: "{{ event }}"
-              bp: "{{ blueprint_name }}"
+          #job_args:
+          #  extra_vars:
+          #    ns: "{{ event.resource.metadata.name }}"
+          #    annotate: "{{ event.resource.metadata.annotations }}"
+          #    ev: "{{ event }}"
+          #    bp: "{{ blueprint_name }}"
 
     - name: Event for sriovnet add
       condition: event.type == "ADDED" and event.resource.metadata.labels.type == eda and event.resource.kind == SriovNetwork
