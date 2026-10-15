@@ -8,7 +8,7 @@ organization_name: "Default"
 project_url: "https://github.com/ludovic-juniper/eda-apstra-project-2.git" 
 project_scm_branch: "main"
 apstra_blueprint_name: "HPE_RH_IBM"
-kubernetes_host: "https://192.168.200.101:6443"
+kubernetes_host: "https://api.hpe-rh-ibm.mop-dev.techzone.ibm.com:6443"
 
 # Ansible Automation Controller(Ansible Tower) Configuration
 automation_controller_host: "https://ansible-automation-controller-aap-dev.apps.sno-ana.mop-dev.techzone.ibm.com/"
