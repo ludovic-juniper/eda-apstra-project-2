@@ -7,11 +7,11 @@
         kinds:
           - api_version: v1
             kind: Namespace
-          - api_version: sriovnetwork.openshift.io/v1
-            kind: SriovNetwork
-            ignore_modified_deleted: true
-            changed_fields:
-              - spec.vlan
+          #- api_version: sriovnetwork.openshift.io/v1
+          #  kind: SriovNetwork
+          #  ignore_modified_deleted: true
+          #  changed_fields:
+          #    - spec.vlan
           - api_version: v1
             kind: Pod
             label_selectors: ["type=eda"]
